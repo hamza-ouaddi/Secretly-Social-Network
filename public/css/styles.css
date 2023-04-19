@@ -1,0 +1,164 @@
+.btn {
+  background-color: #6c63ff;
+  color: #f5f5f5;
+  border: none;
+}
+.btn:hover {
+  background-color: #483dff;
+}
+
+.google-signup {
+  background-color: #ced4da;
+  color: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+}
+.google-signup .fa-google {
+  margin-right: 0.4em;
+}
+.google-signup:hover {
+  background-color: rgba(108, 99, 255, 0.7);
+  color: #f5f5f5;
+}
+
+.posts-container {
+  padding: 2em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.posts-container .post {
+  background-color: #e9ecef;
+  width: 50%;
+  padding: 1em 1em;
+  margin: 1em 1em;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  transition: all 1s ease;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.posts-container .post > p {
+  color: #343a40;
+  margin: 1em 0;
+  transition: all 0.5s ease;
+}
+.posts-container .post:hover {
+  background-color: rgba(108, 99, 255, 0.2);
+}
+.posts-container .post:hover > p {
+  font-size: 1.5rem;
+}
+.posts-container .post .post-details {
+  width: 100%;
+  text-align: end;
+}
+.posts-container .post .post-details .post-writer {
+  top: 40px;
+  right: 10px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 7em 0;
+  height: 100%;
+  /* Home Part */
+  /* Form Part */
+  /* Main Part */
+  /* Submit Part */
+}
+.container h1 {
+  font-size: 2.2rem;
+}
+.container .home-part {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container .home-part img {
+  margin-bottom: 1em;
+}
+.container .home-part .btn {
+  padding: 0.75em 2em;
+}
+.container .home-part .btn:nth-child(2) {
+  background-color: #30d3d9;
+}
+.container .home-part .btn:nth-child(2):hover {
+  background-color: #27e2ca;
+}
+.container .home-part.buttons {
+  display: block;
+}
+.container .form-part .btn {
+  height: 3em;
+  width: 100%;
+}
+.container .form-part input {
+  background-color: transparent;
+  padding: 2.2em 1.4em;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.container .main-part .main-part-buttons {
+  margin: 2em 0;
+}
+.container .main-part .btn:nth-child(1) {
+  background-color: #30d3d9;
+}
+.container .main-part .btn:nth-child(1):hover {
+  background-color: #27e2ca;
+}
+.container .submit-part {
+  text-align: center;
+}
+.container .submit-part > p {
+  margin: 1em 0;
+}
+
+.logo {
+  width: 500px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  color: #adb5bd;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  color: #adb5bd;
+}
+footer a {
+  text-decoration: none;
+  list-style: none;
+}
+footer a:hover {
+  text-decoration: none;
+}
+footer span {
+  color: rgba(108, 99, 255, 0.5);
+  font-size: 1.2rem;
+  transition: all 0.5s ease;
+}
+footer span:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #3c30ff;
+}/*# sourceMappingURL=styles.css.map */

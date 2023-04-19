@@ -1,0 +1,49 @@
+<%- include('partials/header') %>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6 form-part">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1>Log In</h1>
+            <p class="mb-4">Log in to your account to continue access.</p>
+            <form action="/login" method="POST">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="username"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control"
+                  name="password"
+                  placeholder="Password"
+                />
+              </div>
+              <button type="submit" class="btn btn-block btn-primary">
+                Log In
+              </button>
+            </form>
+            <hr />
+            <a
+              class="btn btn-block google-signup"
+              href="/auth/google"
+              role="button"
+            >
+              <i class="fab fa-google"></i>
+              Sign In with Google
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="<%= data.image %>" />
+    </div>
+  </div>
+</div>

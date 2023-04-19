@@ -1,0 +1,28 @@
+@import "colors";
+
+.btn {
+  background-color: $indigo;
+  color: #f5f5f5;
+  border: none;
+  &:hover {
+    background-color: #483dff;
+  }
+}
+
+.google-signup {
+  background-color: $gray-400;
+  color: $gray-800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+
+  .fa-google {
+    margin-right: 0.4em;
+  }
+
+  &:hover {
+    background-color: rgba($indigo, 0.7);
+    color: #f5f5f5;
+  }
+}

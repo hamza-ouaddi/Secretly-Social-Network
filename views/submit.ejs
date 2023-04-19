@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  <div class="jumbotron centered">
+    <div class="submit-part">
+      <img src="<%= data.image %>" width="250px" />
+
+      <p class="secret-text">
+        Don't keep your secrets, share them anonymously!
+      </p>
+
+      <form action="/submit" method="POST">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control text-center"
+            name="secretPost"
+            placeholder="What's your secret?"
+          />
+        </div>
+        <div class="submit-button">
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<%- include('partials/footer') %>
